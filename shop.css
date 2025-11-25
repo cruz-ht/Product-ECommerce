@@ -70,6 +70,7 @@ header ul li a:hover {
   background: #f5f5f5;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   border-radius: 0.3em;
+
   text-align: center;
   overflow: hidden;
 }
@@ -79,8 +80,6 @@ header ul li a:hover {
 }
 .product-Card p {
   margin: 0 15px 15px;
-  line-height: 1.4;
-  flex-grow: 1;
 }
 
 
@@ -124,6 +123,14 @@ header ul{
 .navbar-Menu.mobile-menu{
     display:flex;
 }
+
+.page-Title{
+    margin-top: 3em;
+}
+.grid-Container{
+    margin-top: 2.8em;
+}
+    
 
 }
 /* Tablet */
