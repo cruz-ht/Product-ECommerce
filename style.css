@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Nunito Sans", sans-serif;
+}
+body{
+    background-color: #f9f9f3;
+    color: black;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 1em;
+    padding: 1.5em  1em;
+    font-size: 1.2em;
+}
+header ul li a{
+    cursor: pointer;
+    color: black;
+}
+header ul li a:hover {
+  text-decoration: underline black 2px;
+  text-underline-offset: 5px;
+}
+
+
+.navLogo img{
+    width:5em
+}
+.navLogo{
+    position: absolute;
+    top: 0.2em;
+    left:0.3em;
+}
+
+
+.hamburger-Menu{
+    display: none;
+}
+
+
+#hero-Image{
+    background-image: url("Images/heroimg.png");
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    text-align: center;
+}
+#hero-Text{
+    padding-top: 8em;
+    font-size: 3em;
+    font-weight: bolder;
+    color:#f40612;
+    -webkit-text-stroke: 1.5px black;
+    text-shadow: 2.2px 1.3px black;
+}
+#hero-Button{
+    font-size: 0.3em;
+    letter-spacing: 0.2em;
+    border: solid 2px black;
+    padding: 0.4em;
+    border-radius: 3em;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+.navLogo img{
+    width:4em;
+}
+.navLogo{
+    top: 0.1em;
+}
+.hamburger-Menu{
+    display: block;
+    position: absolute; 
+    top: 0.6em;
+    right: 0.5em;
+    width: 3em;
+}
+header ul{
+    padding: 10em 0 0 0;
+}
+.navbar-Menu{
+    height: 100%;
+    width: 100%;
+    display: none;
+    top:0;
+    right:0;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    gap: 2.5em;
+    backdrop-filter: blur(2px);
+    background-color: #FFFFFF80;
+}
+
+.navbar-Menu.mobile-menu{
+    display:flex;
+}
+
+#hero-Image{
+margin-top: 3.7em;
+background-image: cover;
+height: 39vh;
+text-align: center;
+}
+#hero-Text{
+    padding-top: 6.8em;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color:#f40612;
+    -webkit-text-stroke: 0.5px black;
+    text-shadow: 2px 1px black;
+}
+
+}

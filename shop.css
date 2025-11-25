@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Nunito Sans", sans-serif;
+}
+body{
+    background-color: #f9f9f3;
+    color: black;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 1em;
+    padding: 1.5em  1em;
+    font-size: 1.2em;
+}
+header ul li a{
+    cursor: pointer;
+    color: black;
+}
+header ul li a:hover {
+  text-decoration: underline black 2px;
+  text-underline-offset: 5px;
+}
+
+
+.navLogo img{
+    width:5em
+}
+.navLogo{
+    position: absolute;
+    top: 0.2em;
+    left:0.3em;
+}
+
+
+.hamburger-Menu{
+    display: none;
+}
+
+
+.page-Title{
+    margin-top: 1em;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #f40612;
+}
+
+
+.grid-Container{
+    margin-top: 5em;
+    padding: 0 4em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    column-gap: 2.5em;
+    row-gap: 5em;
+}
+.product-Card img{
+    height: 12em;
+    width: auto;
+    object-fit: cover;
+}
+.product-Card {
+  max-width: 22em;
+  background: #f5f5f5;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 0.3em;
+  text-align: center;
+  overflow: hidden;
+}
+.product-Card h3 {
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+.product-Card p {
+  margin: 0 15px 15px;
+  line-height: 1.4;
+  flex-grow: 1;
+}
+
+
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 768px) {
+
+.navLogo img{
+    width: 3.5em;
+}
+.navLogo{
+    top: 1.5em;
+}
+.hamburger-Menu{
+    display: block;
+    position: absolute; 
+    top: 0.6em;
+    right: 0.5em;
+    width: 3em;
+}
+header ul{
+    padding: 10em 0 0 0;
+}
+.navbar-Menu{
+    height: 100%;
+    width: 100%;
+    display: none;
+    top:0;
+    right:0;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    gap: 2.5em;
+    backdrop-filter: blur(2px);
+    background-color: #FFFFFF80;
+}
+
+.navbar-Menu.mobile-menu{
+    display:flex;
+}
+
+}
+/* Tablet */
+@media (max-width: 900px) {
+    .grid-Container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .grid-Container {
+        grid-template-columns: 1fr;
+    }
+}
