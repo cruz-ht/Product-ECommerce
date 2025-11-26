@@ -50,18 +50,23 @@
         form.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    
+
+    // assigning vars to name
     const name = document.getElementById("name");
     const email = document.getElementById("email");
     const reason = document.getElementById("reason");
     const message = document.getElementById("message");
 
-
+    // assigning errorvars to id
     const nameError = document.getElementById("name-error");
     const emailError = document.getElementById("email-error");
     const reasonError = document.getElementById("reason-error");
     const messageError = document.getElementById("message-error");
 
+
+
+
+    // letting the error display reset before checking again
     [nameError, emailError, reasonError, messageError].forEach(el => {
       el.textContent = "";
       el.classList.remove("show");
@@ -72,6 +77,8 @@
     );
 
     let valid = true;
+
+
 
     // VALIDATION RULES
     if (name.value.trim() === "") {
@@ -102,6 +109,7 @@
       valid = false;
     }
 
+    // Ff everything works, submit it !
     if (valid) {
       form.submit();
     }
