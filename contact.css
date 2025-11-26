@@ -63,7 +63,7 @@ header ul li a:hover {
     justify-content: center;
     background-color: #ecece9;
     border-radius: 2em;
-    margin: 0 15em 2em;
+    margin: 0 15em 4em;
 
 }
 .contact-Form{
@@ -121,6 +121,7 @@ button:active{
 
 
 footer {
+    margin-top: 1em;
     background-color: #ecece9;
     color: black;
     padding: 1.2em 1.2em 0.8em;
@@ -250,5 +251,13 @@ footer {
     
 .copyright {
     font-size: 0.8em;
+}
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width:769px){
+.form-Container{
+margin-bottom: 2.7em;
 }
 }
