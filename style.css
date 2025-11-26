@@ -51,10 +51,24 @@ header ul li a:hover {
     text-align: center;
     padding: 0.5em 1em;
     font-size: 0.9em;
+    overflow: hidden;
+    white-space: nowrap;
 }
 .promo-banner strong {
-    font-weight: 700;
-    letter-spacing: 0.05em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+.promo-text {
+    display: inline-block;
+    animation: scroll-left 15s linear infinite;
+}
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 
@@ -178,15 +192,21 @@ header ul{
     backdrop-filter: blur(2px);
     background-color: #FFFFFF80;
 }
-
 .navbar-Menu.mobile-menu{
     display:flex;
 }
 
+
+ .promo-banner {
+    font-size: 0.8em;
+    padding: 0.7em;
+}
+
+
 #hero-Image{
-margin-top: 3.7em;
-text-align: center;
-height: 28em;
+    margin-top: 3.7em;
+    text-align: center;
+    height: 28em;
 }
 #hero-Text{
     padding-top: 7.3em;

@@ -26,8 +26,8 @@ header ul li a{
     color: black;
 }
 header ul li a:hover {
-  text-decoration: underline #f40612 2px;
-  text-underline-offset: 5px;
+    text-decoration: underline #f40612 2px;
+    text-underline-offset: 5px;
 }
 
 
@@ -69,20 +69,24 @@ header ul li a:hover {
     object-fit: cover;
 }
 .product-card {
-  max-width: 22em;
-  background: #f5f5f5;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 0.3em;
-
-  text-align: center;
-  overflow: hidden;
+    max-width: 22em;
+    background: #f5f5f5;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0.3em;
+    text-align: center;
+    overflow: hidden;
 }
+.product-card:hover {
+    transform: scale(1.1) translateY(-10px);
+}
+
+
 .product-card h3 {
-  font-size: 1em;
-  margin-bottom: 0.5em;
+    font-size: 1em;
+    margin-bottom: 0.5em;
 }
 .product-card p {
-  margin: 0 15px 15px;
+    margin: 0 15px 15px;
 }
 
 
