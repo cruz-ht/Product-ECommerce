@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link
+      rel="icon"
+      type="Cruz Mart Custom Tab Icon"
+      href="Images/logobox.png"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
@@ -36,35 +42,69 @@
 
 
     <main class="form-Container">
-        <form action="#" class="contact-Form">
+        <form action="#" class="contact-Form" novalidate>
+
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
+            <p class="error-text" id="name-error"></p>
 
             <label for="email">Email Address:</label>
             <input type="email" id="email" name="email" required>
+            <p class="error-text" id="email-error"></p>
 
+            <!-- creating a drop-down Menu -->
             <label for="reason">Reason for Contact</label>
-            <select id="reason" name="reason"required>
-                <option selected disabled>Choose an option</option>
-                <option value="order">Order Issue</option>
-                <option value="restock">Restock Request</option>
-                <option value="general">General Question</option>
-                <option value="shipping">Shipping Question</option>
-                <option value="Other">Other</option>
-            </select>
+            <select id="reason" name="reason" required>
 
-            <label>Your Message:</label>
-            <textarea placeholder="write your message here" required></textarea>
+                <option value="" selected disabled>Choose an option</option>
+                <option value="order" >Order Issue</option>
+                <option value="restock" >Restock Request</option>
+                <option value="general" >General Question</option>
+                <option value="shipping" >Shipping Question</option>
+                <option value="Other" >Other</option>
+            </select>
+            <p class="error-text" id="reason-error"></p>
+            
+            <!-- ------------------------- -->
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message"placeholder="write your message here" required></textarea>
+            <p class="error-text" id="message-error"></p>
 
             <label class="updates">
             <input type="checkbox"> Sign up for our weekly newsletter to get the latest updates and offers !</label>
 
             <button type="submit">Submit</button>
 
-
         </form>
     </main>
 
+
+    <footer>
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop Now</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        
+            <div class="social-links">
+                <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                    <img src="Images/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                    <img src="Images/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://x.com/" target="_blank" aria-label="Twitter">
+                    <img src="Images/twitter.png" alt="Twitter">
+                </a>
+            </div>
+        
+            <p class="copyright">@ 2025 Cruz Riot. All rights reserved.</p>
+        </div>
+    </footer>
 
 <script src="java.js"></script>
 </body>
