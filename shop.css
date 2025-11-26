@@ -60,12 +60,12 @@ header ul li a:hover {
     column-gap: 2.5em;
     row-gap: 5em;
 }
-.product-Card img{
+.product-card img{
     height: 12em;
     width: auto;
     object-fit: cover;
 }
-.product-Card {
+.product-card {
   max-width: 22em;
   background: #f5f5f5;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -74,11 +74,11 @@ header ul li a:hover {
   text-align: center;
   overflow: hidden;
 }
-.product-Card h3 {
+.product-card h3 {
   font-size: 1em;
   margin-bottom: 0.5em;
 }
-.product-Card p {
+.product-card p {
   margin: 0 15px 15px;
 }
 

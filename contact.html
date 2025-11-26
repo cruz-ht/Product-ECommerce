@@ -32,6 +32,39 @@
 
     </header>
 
+    <h1 Class="page-Title">CONTACT PAGE</h1>
+
+
+    <main class="form-Container">
+        <form action="#" class="contact-Form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="reason">Reason for Contact</label>
+            <select id="reason" name="reason"required>
+                <option selected disabled>Choose an option</option>
+                <option value="order">Order Issue</option>
+                <option value="restock">Restock Request</option>
+                <option value="general">General Question</option>
+                <option value="shipping">Shipping Question</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label>Your Message:</label>
+            <textarea placeholder="write your message here" required></textarea>
+
+            <label class="updates">
+            <input type="checkbox"> Sign up for our weekly newsletter to get the latest updates and offers !</label>
+
+            <button type="submit">Submit</button>
+
+
+        </form>
+    </main>
+
 
 <script src="java.js"></script>
 </body>

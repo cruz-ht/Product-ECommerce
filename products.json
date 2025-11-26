@@ -1,0 +1,110 @@
+[
+    {
+    "id": 1,
+    "image": "Images/loadingseries.png",
+    "alt": "Image of Lil Peach Riot Loading Series Figure",
+    "name": "Lil Peach Riot: Loading! Series",
+    "description": "Introducing Lil Peach Riot - ready to take over the virtual game world.",
+    "price": 19.99
+    },
+
+    {
+    "id": 2,
+    "image": "Images/sleepoverseries.png",
+    "alt": "Image of Lil Peach Riot Sleveover Series Figure",
+    "name": "Lil Peach Riot: Sleepover Series",
+    "description": "Girls’ night in! Join Peach Riot for the ultimate sleepover.",
+    "price": 19.99
+    },
+
+    {
+    "id": 3,
+    "image": "Images/westernseries.jpg",
+    "alt": "Image of Lil Peach Riot Western Series Figure",
+    "name": "Lil Peach Riot: Western Riot",
+    "description": "Heroes of the Wild West - Lil Peach Riot is ready to take over",
+    "price": 99.99 
+    },
+
+    {
+    "id": 4,
+    "image": "Images/holidayseries.jpg",
+    "alt": "Imaf of Lil Peach Riot Holiday Mixtape Figure",
+    "name": "Lil Peach Riot: Holiday Mixtape",
+    "description": "For Lil Peach Riot, every day feels like Christmas.",
+    "price": 19.99
+    },
+
+    {
+    "id": 5,
+    "image": "Images/riseupseries.jpg",
+    "alt": "Images of Peach Riot Rise Up Series Figure",
+    "name": "Rise Up Series",
+    "description": "It’s time to rock - join the fun with Peach Riot!",
+    "price": 20.99
+    },
+
+    {
+    "id": 6,
+    "image": "Images/punkfairyseries.jpg",
+    "alt": "Images of Peach Riot Punk Fairy Series Figure",
+    "name": "Punk Fairy Series",
+    "description": "Peach Riot has arrived in a land of magic and whimsy.",
+    "price": 20.99
+    },
+
+    {
+    "id": 7,
+    "image": "Images/rushhour.jpg",
+    "alt": "Image of Peach Riot Rush Hour Series Figure",
+    "name": "Rush Hour Series",
+    "description": "From Band Practice to work, Peach Riot never stops moving.",
+    "price": 20.99
+    },
+
+    {
+    "id": 8,
+    "image": "Images/raindowpoppy.jpg",
+    "alt": "Image of Poppy Figure, in the Rainbow Riot Series",
+    "name": "Rainbow Riot Figurine: Poppy",
+    "description": "Be bold, be you! Celebrate with Poppy on stage.",
+    "price": 142.99
+    },
+
+    {
+    "id": 9,
+    "image": "Images/raindowgigi.jpg",
+    "alt": "Image of Gigi Figure, in the Rainbow Riot Series",
+    "name": "Rainbow Riot Figurine: Gigi",
+    "description": "Be bold, be you! Celebrate with Gigi on stage.",
+    "price": 142.99
+    },
+
+    {
+    "id": 10,
+    "image": "Images/raindowfrankie.jpg",
+    "alt": "Image of Frankie Figure, in the Rainbow Riot Series",
+    "name": "Rainbow Riot Figurine: Frankie",
+    "description": "Be bold, be you! Celebrate with Frankie on stage.",
+    "price": 142.99
+    },
+
+    {
+    "id": 11,
+    "image": "Images/streetstyleseries.jpg",
+    "alt": "Image of Peach Riot Street Style Figurine Set",
+    "name": "Street Style Set of Three",
+    "description": "Peach Riot is hitting the streets with bold new style. Come join them!",
+    "price": 69.99
+    },
+
+    {
+    "id": 12,
+    "image": "Images/bloodyvalenseries.jpg",
+    "alt": "Image of Peach Riot Bloody Valentine Figurine Set",
+    "name": "Bloody Valentine Set of Three",
+    "description": "This Valentine’s, enjoy something sweet with a sting — Peach Riot's new style",
+    "price": 134.99
+    }
+
+]

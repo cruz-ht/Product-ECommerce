@@ -44,6 +44,72 @@ header ul li a:hover {
 
 
 
+.page-Title{
+    margin-bottom: 2em;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #f40612;
+}
+
+
+/* CONTACT FORM */
+.form-Container{
+    display: flex;
+    justify-content: center;
+    background-color: #ecece9;
+    border-radius: 2em;
+    margin: 1em 15em;
+
+}
+.contact-Form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 0.5em;
+    margin: 1em 3em 2em;
+    font-size: 1em;
+}
+.form-Container input, select, textarea{
+    border-radius: 1em;
+    border: 1px solid #ccc;
+    padding: 0.3em;
+}
+.form-Container textarea{
+    padding: 0.5em 1em;
+    height: 7em;
+    resize: none;
+}
+
+
+.updates{
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+button{
+    padding: 0.3em;
+    margin: 1em 6em 0;
+    border-radius: 2em;
+    border: 1px solid black;
+    background-color: #ccccca;
+    font-size: 0.7em;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #f4061280;
+}
+button:active{
+    transform: translate(0,2px);
+}
+
+/* CSS FOR DROPDOWN */
+
+
+
+
+
 
 /* RESPONSIVE DESIGN */
 
@@ -83,5 +149,15 @@ header ul{
 
 .navbar-Menu.mobile-menu{
     display:flex;
+}
+.page-Title{
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
+.form-Container{
+    margin: 1em 1em;
+}
+button{
+font-size: 0.8em;
 }
 }
