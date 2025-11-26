@@ -48,7 +48,7 @@ header ul li a:hover {
 
 
 .page-Title{
-    margin: 0.8em 0 ;
+    margin: 2em 0 ;
     text-align: center;
     letter-spacing: 0.2em;
     color: #f40612;
@@ -63,7 +63,7 @@ header ul li a:hover {
     justify-content: center;
     background-color: #ecece9;
     border-radius: 2em;
-    margin: 0 17em 6em;
+    margin: 0 20em 6em;
 
 }
 .contact-Form{
